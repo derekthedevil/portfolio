@@ -331,8 +331,63 @@ span{
     gap: 2.5rem;
 }
 .service-box{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    height: 600px;
+    border-radius: 3rem;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
 }
+.service-box:hover{
+    background: var(--second-bg-color);
+    color: var(--main-color);
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+}
+.service-box .service-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 5rem;
+}
+.service-info h4{
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-weight: 800;
+}
+.service-info p{
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 1.7;
+}
+.service-info i{
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
