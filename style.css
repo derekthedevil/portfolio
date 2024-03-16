@@ -433,7 +433,7 @@ span {
 }
 
 .projects {
-    background: url(background.jpg) repeat fixed;
+    background: url(project_photos/background.jpg) repeat fixed;
     backdrop-filter: blur(20px);
     background-size: cover;
 }
