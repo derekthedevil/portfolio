@@ -644,7 +644,7 @@ span {
         color: white;
     }.home{
         flex-direction: column-reverse;
-        margin: 5rem 4rem;
+        margin: 3rem 4rem;
         gap:3rem;
     }
     .home-content{
@@ -657,14 +657,12 @@ span {
     .home-content h3{
         font-size: 2.6rem;
     }
-    .home-content h3{
-        font-size: 2.6rem;
-    }
     .home-content h1{
-        font-size: 8rem;
+        font-size: 5rem;
         margin-top: 3rem;
     }
     .home-content P{
+        font-size: 2rem;
         max-width: 600px;
         margin: 0 auto;
     }
@@ -674,7 +672,7 @@ span {
     }
     .about{
         flex-direction: column-reverse;
-        padding: 10rem 9% 10rem;
+        padding: 5rem 15% 10rem;
     }
     .about .heading{
         margin: 3rem 0;
@@ -682,11 +680,37 @@ span {
     .about img{
         width: 50vw;
     }
+    .about-content h3{
+        font-size: 2.6rem;
+    }
+    .about-content h2{
+        font-size: 5rem;
+        margin-top: 3rem;
+    }
+    .about-content P{
+        font-size: 2rem;
+        max-width: 600px;
+        margin: 0 auto 1rem;
+    }
+    .about-content a{
+        margin-top: 2rem;
+    }
     .services h2{
         margin-bottom: 3rem;
     }
+    .service-info h4{
+        font-size: 3rem;
+    }
+    .service-info p{
+        font-size: 1.7rem;
+        padding: 1.8rem;
+    }
+    .service-info i{
+        font-size: 8rem;
+    }
     .services-container{
         grid-template-columns: repeat(1,1fr);
+        padding: 2.5rem;
     }
     .project-box{
         grid-template-columns: repeat(1,1fr);
