@@ -603,7 +603,7 @@ span {
         min-width: 30vw;
     }
 }
-@media(max-width:991px){
+@media(max-width:1000px){
     header{
         padding: 2rem 3%;
     }
@@ -617,7 +617,7 @@ span {
         padding: 2rem 3%;
     }
 }
-@media(max-width:895px){
+@media(max-width:800px){
     #menu-icon{
         display: block;
     }
